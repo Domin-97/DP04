@@ -1,0 +1,87 @@
+{
+"entities": [
+{
+"name": "Tutorial",
+"attributes":[
+	{ "visibility": "public",
+     	"attributeName": "title",
+     	"attributeType": "String",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[{"constraint":"NotBlank"}]
+   	},
+{ "visibility": "public",
+     	"attributeName": "lastUpdate",
+     	"attributeType": "Date",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[{"constraint":"Past"},{"constraint":"NotBlank"}]
+   	},
+{ "visibility": "public",
+     	"attributeName": "summary",
+     	"attributeType": "String",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[{"constraint":"NotBlank"}]
+   	},
+ 
+
+{ "visibility": "public",
+     	"attributeName": "picture",
+     	"attributeType": "String",
+     	"multiplicity": "0..*",
+     	"derived": false,
+     	"constraints":[]
+   	}
+]
+  },
+{
+"name": "Section",
+"attributes":[
+	{ "visibility": "public",
+     	"attributeName": "number",
+     	"attributeType": "Integer",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[]
+   	},
+{ "visibility": "public",
+     	"attributeName": "title",
+     	"attributeType": "String",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[{"constraint":"NotBlank"}]
+   	},
+
+
+
+
+{ "visibility": "public",
+     	"attributeName": "text",
+     	"attributeType": "String",
+     	"multiplicity": "1",
+     	"derived": false,
+     	"constraints":[{"constraint":"NotBlank"}]
+   	},
+{ "visibility": "public",
+     	"attributeName": "photo",
+     	"attributeType": "String",
+     	"multiplicity": "0..*",
+     	"derived": false,
+     	"constraints":[]
+   	}
+]
+  }
+],
+"associations":[
+{
+"sourceEntity": "Tutorial",
+"targetEntity": "Section",
+"targetMultiplicity": "1..*",
+"type": "composition",
+"navToSource": false,
+"navToTarget": true,
+"order": "number"
+}
+]
+}

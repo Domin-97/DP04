@@ -1,0 +1,57 @@
+{
+"warranties": [
+{
+"title": "title1",
+"terms": "terms1",
+"applicableLaws": "OneLaw",
+"finalMode": true
+},
+{
+"title": "title1",
+"terms": "terms1",
+"applicableLaws": "OneLaw",
+"finalMode": true
+}
+],
+"tutorials":[
+{
+"tittle": "Title1",
+"summary": "sum",
+"lastUpdated": "31/10/2018 20:32",
+"pictures": ["http://www.handyworker.com/picture.jpg","http://www.handyworker.com/picture2.jpg"],
+"sections":[{
+"number": 0,
+"title": "title",
+"text": "des",
+"photos": ["http://www.handyworker.com/picture.jpg",
+"http://www.handyworker.com/picture2.jpg"]
+}]
+},
+{
+"tittle": "Title2",
+"summary": "usum",
+"lastUpdated": "31/10/2018 20:32",
+"pictures": ["http://www.handyworker.com/picture.jpg","http://www.handyworker.com/picture2.jpg"],
+"sections":[{
+"number": 0,
+"title": "title",
+"text": "des",
+"photos": ["http://www.handyworker.com/picture.jpg",
+"http://www.handyworker.com/picture2.jpg"]
+}]
+},
+{
+"tittle": "Title3",
+"summary": "sum",
+"lastUpdated": "31/10/2018 20:32",
+"pictures": ["http://www.handyworker.com/picture.jpg","http://www.handyworker.com/picture2.jpg"],
+"sections":[{
+"number": 0,
+"title": "title",
+"text": "des",
+"photos": ["http://www.handyworker.com/picture.jpg",
+"http://www.handyworker.com/picture2.jpg"]
+}]
+}
+]
+}

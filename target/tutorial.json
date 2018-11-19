@@ -1,0 +1,34 @@
+[{
+"tittle": "Titulo1",
+"summary": "uno",
+"sections":[{
+"number": 0,
+"title": "titulo",
+"text": "des"
+}]
+},
+{
+"tittle": "Titulo1",
+"summary": "uno",
+"sections":[{
+"number": 1,
+"title": "titulo",
+"text": "des"
+}]
+},
+{
+"tittle": "Titulo1",
+"summary": "uno",
+"sections":[{
+"number": 2,
+"title": "titulo",
+"text": "des"
+}]
+},
+{
+"title": "titulo",
+"terms": "terminos",
+"applicableLaws": "una",
+"finalMode": true
+}
+]

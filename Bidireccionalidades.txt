@@ -1,0 +1,10 @@
+MessageBox  0..* <--> 1..* Message
+
+Tutorial    1    <--> 0..* Sponsorship
+HandyWorker 1    <--> 0..* Tutorial
+HandyWorker 1    <--> 0..* Application
+FixUp-Task  1    <--> 0..* Application
+FixUp-Task  0..* <--> 1    Customer
+
+FixUp-Task  1    <--> 0..* Complaint
+Report      0..1 <--> 1    Complaint
